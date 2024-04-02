@@ -1,0 +1,113 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.bg-box {
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.wrapper {
+    background-color: #fff;
+    height: 74vh;
+    width: 56vw;
+    z-index: 100;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login {
+    height: 100%;
+    width: 50%;
+    background-color: #0aceff;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 40px;
+}
+
+.signup {
+    height: 100%;
+    width: 50%;
+    background-color: #2b71f3;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 40px;
+    position: relative;
+}
+
+.signup h2 {
+    margin: 25px 0px;
+    color: #fff;
+}
+
+.msg{
+    background-color: green;
+    color: #fff;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    z-index: 500;
+    position: absolute;
+    right: 400px;
+    top: 204px;
+}
+
+.signup div {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    gap: 5px;
+    color: #161616;
+}
+
+.signup div input {
+    height: 40px;
+    font-size: 0.9rem;
+    padding: 0px 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+}
+
+.signup div button {
+    margin: 10px 0px;
+    height: 40px;
+    font-size: 0.9rem;
+    padding: 0px 10px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    background-color: #1e1b24;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+}
